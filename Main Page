@@ -1,0 +1,26 @@
+import java.util.*;                                        // import packages
+import java.awt.*;
+import javax.swing.*; 
+
+
+
+public class waste_system{                                // Main class ->  waste_system
+
+
+public static void main(String[] args){
+
+JFrame main_page = new JFrame("Waste Management System");   // frame   ->  main_page
+
+JButtoon login,register;
+login=new JButton(" Login ");
+register=new JButton(" Register ");
+
+
+main_page.add(login);                                   // add login button
+main_page.add(register);                                //add register button
+
+
+
+
+}
+}
